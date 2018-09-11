@@ -14,8 +14,10 @@
     </div>
     <script>
       var val = document.getElementById('title');
-      sleep(100);
-      val.innerHTML = "こんにちわ";
+      var te = function(){
+        val.innerHTML = "こんにちわ";
+      }
+      setTimeout(te,1000);
     </script>
   
   </body>
