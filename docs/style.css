@@ -7,6 +7,7 @@ html,body{
   margin:auto;
   padding:10px;
   border:1px solid #aaa;
-  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+  //filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.6);
 }
 
